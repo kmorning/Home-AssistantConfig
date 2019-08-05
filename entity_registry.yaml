@@ -1,0 +1,8 @@
+light.hue_ambiance_lamp_2:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:7c:68:a2-0b
+light.hue_ambiance_lamp_1:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:7c:7d:c8-0b

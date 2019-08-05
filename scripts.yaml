@@ -1,0 +1,40 @@
+remote_recall:
+  alias: 'Recall Button'
+  sequence:
+    service: remote.send_command 
+    data:
+      command: Recall
+      device: 58226720
+
+remote_guide:
+  alias: 'Guide Button'
+  sequence:
+    service: remote.send_command 
+    data:
+      command: Guide
+      device: 58226720
+
+remote_cancel:
+  alias: 'Cancel Button'
+  sequence:
+    service: remote.send_command 
+    data:
+      command: Cancel
+      device: 58226720
+
+remote_info:
+  alias: 'Info Button'
+  sequence:
+    service: remote.send_command 
+    data:
+      command: Info
+      device: 58226720
+
+remote_select:
+  alias: 'Select Button'
+  sequence:
+    service: remote.send_command 
+    data:
+      command: Select
+      device: 58226720
+

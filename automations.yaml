@@ -1,0 +1,21 @@
+- id: '1530050830213'
+  alias: Pool On
+  trigger:
+  - at: '19:00:00'
+    platform: time
+  condition: []
+  action:
+  - alias: ''
+    data:
+      entity_id: switch.pool_power_relay
+    service: switch.turn_on
+- id: '1530054215597'
+  alias: Pool Off
+  trigger:
+  - at: 03:00:00
+    platform: time
+  condition: []
+  action:
+  - data:
+      entity_id: switch.pool_power_relay
+    service: switch.turn_off

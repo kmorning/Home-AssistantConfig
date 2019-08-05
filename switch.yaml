@@ -1,0 +1,4 @@
+- platform: rpi_gpio
+  ports:
+    5: Pool On
+    6: Pool Speed
