@@ -1,6 +1,6 @@
 # Example .gitignore file for your config dir.
 # A * ensures that everything will be ignored.
-*
+#*
 
 # You can whitelist files/folders with !, these will not be ignored.
 !*.yaml
@@ -19,3 +19,8 @@ secrets.yaml
 known_devices.yaml
 ca.crt
 meross_devices.conf
+.HA_VERSION
+.uuid
+*.json
+*.log
+*.db
